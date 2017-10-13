@@ -80,9 +80,9 @@ static const RCSwitch::Protocol PROGMEM proto[] = {
   { 500, {  6, 14 }, {  1,  2 }, {  2,  1 }, false },    // protocol 5
   { 450, { 23,  1 }, {  1,  2 }, {  2,  1 }, true }      // protocol 6 (HT6P20B)
   { 150, { 34,  3 }, {  1,  3 }, {  3,  1 }, false },    // protocol 7 (AC114)
-	{ 360, { 13,  4 }, {  1,  2 }, {  2,  1 }, false },    // protocol 8 (DC250)
-	{ 650, {  1, 10 }, {  1,  2 }, {  2,  1 }, true },     // protocol 9 (Mandolyn/Lidl TR-502MSV/RC-402/RC-402DX)
-	{ 641, { 115, 1 }, {  1,  2 }, {  2,  1 }, true }		   // protocol 10 (Lidl TR-502MSV/RC-402 - Flavien)
+  { 360, { 13,  4 }, {  1,  2 }, {  2,  1 }, false },    // protocol 8 (DC250)
+  { 650, {  1, 10 }, {  1,  2 }, {  2,  1 }, true },     // protocol 9 (Mandolyn/Lidl TR-502MSV/RC-402/RC-402DX)
+  { 641, { 115, 1 }, {  1,  2 }, {  2,  1 }, true }		   // protocol 10 (Lidl TR-502MSV/RC-402 - Flavien)
 };
 
 enum {
